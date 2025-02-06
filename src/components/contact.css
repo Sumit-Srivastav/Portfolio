@@ -1,0 +1,26 @@
+.right-contact{
+border: 1px solid white;
+margin: auto;
+
+}
+
+@media screen and (max-width:331px){
+.right-contact{
+    border: none;
+}
+}
+
+@media screen and (max-width:340px) {
+
+    .right-contact div {
+      text-align: left !important;
+       display: block !important;
+       margin: 0 !important;
+    }
+    .right-contact p{
+        text-align: left !important;
+        padding: none !important;
+        padding-left: -100px !important;
+    }
+
+}

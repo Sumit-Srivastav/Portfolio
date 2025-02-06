@@ -1,0 +1,31 @@
+.skills-section{
+    width: 100%;
+    background-image: url("../img/Dots.svg");
+background-repeat: no-repeat;
+position: relative;
+}
+.line{
+    width: 300px;
+    height: 2px;
+    background-color: rgba(199, 120, 221, 1);
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.skills-box{
+    border: 1px solid white;
+}
+.skills-box h5 {
+    border-bottom: 1px solid white;
+}
+.boy{
+    width: 80%;
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+    .boy {
+        width: 300px !important;
+    }
+    .skills-section {
+        text-align: center;
+    }
+}

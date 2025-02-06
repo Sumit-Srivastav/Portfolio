@@ -1,0 +1,50 @@
+.heading{
+    font-size: 35px;
+    font-family: "cursive";
+    line-height: 40px;
+}
+.subColor{
+    color: rgba(199, 120, 221, 1);
+}
+.subHeight{
+    font-size: 25px;
+}
+.shadow-effect{
+    text-shadow: 0px 0px 5px  rgb(253, 3, 3);
+}
+.button{
+    padding: 3px 18px;
+    border-radius: 2px;
+    border: 1px solid rgba(199, 120, 221, 1) ;
+    background-color: transparent;
+    
+}
+p{
+    color: rgb(190, 188, 188);
+}
+/* right side */
+.section1-right{
+    background-image: url("../img/Logo.svg");
+    background-repeat: no-repeat;
+   background-position-x: 10px;  
+   background-position-y: 30px; 
+   justify-items: center;
+   position: relative;
+}
+.dp{
+    width: 300px;
+    margin-top: 50px;
+}
+.nameLable{
+    width: 50%;
+    border: 1px solid rgba(199, 120, 221, 1) ;
+}
+.dots{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/Dots.svg");
+    background-repeat: no-repeat;
+    right: 0px;
+    background-color: transparent;
+}

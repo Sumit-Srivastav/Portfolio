@@ -1,0 +1,32 @@
+
+.motivation-div{
+    border: 1px solid white;
+    padding: 15px 0px ;
+    font-size: 20px;
+    position: relative;
+}
+.author{
+    border: 1px solid white;
+    max-width: fit-content;
+    float: right;
+    padding: 5px 20px;
+}
+.quote{
+    width: 30px;
+position: absolute;
+background-color: black;
+padding: 0px 10px;
+overflow: hidden;
+top: -18px;
+left: 30px;
+}
+
+.quote2{
+    width: 30px;
+    position: absolute;
+    background-color: black;
+    padding: 0px 10px;
+    overflow: hidden;
+bottom: -14px;
+    right: 30px;
+    }

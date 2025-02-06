@@ -1,0 +1,15 @@
+.borders{
+    border: 1px solid white;
+    max-width: fit-content;
+    padding: 5px 15px;
+}
+@media screen and (max-width:519px){
+#line{
+    width: auto;}
+}
+@media screen and (min-width:400px)and (max-width:575px){
+   .laughImg{
+    width: 70% !important;
+   }
+
+    }
