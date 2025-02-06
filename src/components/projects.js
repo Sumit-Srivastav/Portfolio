@@ -126,14 +126,14 @@ const Projects=()=>{
             <div className="line project-line "></div>
           </div>
           <div className="row gap-4 py-5">
-            <div className="col-sm-5 project-container py-3 mx-auto ">
+            <div className="col-sm-5 project-container py-3 mx-auto mt-4">
                 <div className="py-3"><img className="w-100 project-left" src={portfolioSc}/></div>
-                <div className="text-center sumit-portfolio">Portfolio</div>
-                <div className="text-center visit mt-3"><a href="" className="button text-decoration-none text-light fw-bold">Visit</a></div>
+                <div className="text-center sumit-portfolio col-12">Portfolio</div>
+                <div className="text-center visit mt-3 col-12"><a href="" className="button text-decoration-none text-light fw-bold">Visit</a></div>
             </div>
 
 
-            <div className="col-sm-5 project-container py-3 mx-auto ">
+            <div className="col-sm-5 project-container py-3 mx-auto mt-4">
                 <div className="py-2">
                 <div className="slider-container project-right py-1">
           <Slider {...settings}>
@@ -150,8 +150,8 @@ const Projects=()=>{
         </div>
                 
                 </div>
-                <div className="text-center sumit-portfolio">Gadgets</div>
-                <div className="text-center visit mt-3"><a href="" className="button text-decoration-none text-light fw-bold">Visit</a></div>
+                <div className="text-center sumit-portfolio col-12">Gadgets</div>
+                <div className="text-center visit mt-3 col-12"><a href="" className="button text-decoration-none text-light fw-bold">Visit</a></div>
             </div>
             
           </div>
