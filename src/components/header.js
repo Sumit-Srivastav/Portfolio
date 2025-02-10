@@ -5,8 +5,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { useGSAP } from "@gsap/react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { useGSAP } from "@gsap/react";
 import gsap from 'gsap';
 const Header = () =>{
 
@@ -35,8 +35,7 @@ useGSAP(()=>{
         <Navbar.Brand href="#home" className='logo'>
         <div className='box-animation'>S<span>UMIT</span> S<span>RIVASTAV</span></div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='icon mt-3 text-light'/>
-        <RxHamburgerMenu size={30} color="white icon mt-3 text-light" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='icon mt-3 text-light'><RxHamburgerMenu className="" /></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav ">
           <Nav className="nav-right ms-auto pt-3"> 
         <Link to="/" className='nav-container text-dec'><div className='nav-element' id="home">Home</div></Link>

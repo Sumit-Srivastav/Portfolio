@@ -143,11 +143,11 @@ font-weight: bold;
 }
 
 .navbar-toggler-icon{
-    /* background-color: white; */
- 
+   
+    background-image: none !important;
+
 }
 #responsive-navbar-nav{
-    background-color: red !important;
     display: block;
 }
 
