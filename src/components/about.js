@@ -48,7 +48,7 @@ const About = () => {
       },
        })
        tl6.from(".about-p",{
-        x:100,
+        y:100,
         opacity:0,
         duration:1,
         scrollTrigger:{
