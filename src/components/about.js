@@ -73,7 +73,7 @@ const About = () => {
       })
       tl6.from(".dp2",{
         
-        width:20,
+        // width:20,
         opacity:0,
         duration:1,
         scrollTrigger:{

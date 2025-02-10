@@ -151,7 +151,7 @@ const Projects=()=>{
                 
                 </div>
                 <div className="text-center sumit-portfolio col-12">Gadgets</div>
-                <div className="text-center visit mt-3 col-12"><a href="" className="button text-decoration-none text-light fw-bold">Visit</a></div>
+                <div className="text-center visit mt-3 col-12"><a href="https://gadget-project-swart.vercel.app/" className="button text-decoration-none text-light fw-bold">Visit</a></div>
             </div>
             
           </div>
