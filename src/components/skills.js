@@ -89,25 +89,25 @@ duration:0.7,
                 <div className="col-md-4 ">
                   <div className="skills-box px-3">
                     <h5 className="py-2 skills-title ">Databases</h5>
-                    <p className="">SQL</p>
+                    <p className="">MongoDB</p>
                   </div>
                   <br></br>
                   <div className="skills-box px-3">
                     <h5 className="py-2 skills-title ">Libraries</h5>
-                    <p className="">React, Redux, FontAwesome, GSAP </p>
+                    <p className="">React, Redux, GSAP,ReactIcons </p>
                   </div>
                 </div>
 
                 
                 <div className="col-md-4 ">
                 <div className="skills-box px-3">
-                    <h5 className="py-2 skills-title  ">Frameworks</h5>
-                    <p className="">Bootstrap, Tailwind CSS</p>
+                    <h5 className="py-2 skills-title  ">Backend</h5>
+                    <p className="">Node Js,Express</p>
                   </div>
                   <br></br>
                   <div className="skills-box px-3">
                     <h5 className="py-2 skills-title ">Tools</h5>
-                    <p className="">VSCode , Font Awesome , Git , Toast  </p>
+                    <p className="">JWT, Bcrypt , Cloudinary, Git , Postman </p>
                   </div>
                 
                
